@@ -1,0 +1,110 @@
+{
+  "main": {
+    "id": "4fda452e63fd62ac",
+    "type": "split",
+    "children": [
+      {
+        "id": "eead423b6301956e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "go lang.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ee1f8b5d7cf058b8",
+    "type": "split",
+    "children": [
+      {
+        "id": "d16bd603a60987ac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b0aab2f12a1667fd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "020a6f8c62fcde12",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "75d737d2de588b5a",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 165.5068016052246
+  },
+  "right": {
+    "id": "5f87e7f4e72fa4c7",
+    "type": "split",
+    "children": [
+      {
+        "id": "b7847d98db67f9b6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7e47eb9e0234c1d6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "go lang.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "eead423b6301956e",
+  "lastOpenFiles": [
+    "go lang.md",
+    "vim.md",
+    "obsidian.md",
+    "tmux.md",
+    "gnome.md",
+    "firefox.md",
+    "docker.md",
+    "zsh.md",
+    "Tools.md"
+  ]
+}
