@@ -7,11 +7,10 @@
         "id": "eead423b6301956e",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "diff-view",
           "state": {
-            "file": "go lang.md",
-            "mode": "source",
-            "source": false
+            "file": ".obsidian/workspace",
+            "staged": false
           }
         }
       }
@@ -61,7 +60,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 165.5068016052246
+    "width": 232.5
   },
   "right": {
     "id": "5f87e7f4e72fa4c7",
@@ -77,34 +76,50 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "go lang.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
+          },
+          {
+            "id": "5e4901a0d0dc815c",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "b9eaa3909a80ef74",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "eead423b6301956e",
   "lastOpenFiles": [
+    "zsh.md",
     "go lang.md",
+    "programming-language.md",
     "vim.md",
     "obsidian.md",
     "tmux.md",
     "gnome.md",
     "firefox.md",
     "docker.md",
-    "zsh.md",
     "Tools.md"
   ]
 }
