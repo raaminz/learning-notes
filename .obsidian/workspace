@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "eead423b6301956e",
+        "id": "049d31a82040286d",
         "type": "leaf",
         "state": {
           "type": "diff-view",
           "state": {
-            "file": ".obsidian/workspace",
+            "file": ".obsidian/community-plugins.json",
             "staged": false
           }
         }
@@ -95,7 +95,7 @@
             }
           },
           {
-            "id": "b9eaa3909a80ef74",
+            "id": "5cf3b26395bf78ef",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -109,7 +109,7 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "eead423b6301956e",
+  "active": "049d31a82040286d",
   "lastOpenFiles": [
     "zsh.md",
     "go lang.md",
