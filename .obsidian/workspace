@@ -9,7 +9,7 @@
         "state": {
           "type": "diff-view",
           "state": {
-            "file": ".obsidian/community-plugins.json",
+            "file": ".obsidian/workspace",
             "staged": false
           }
         }
@@ -107,15 +107,15 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 338.4999694824219
   },
   "active": "049d31a82040286d",
   "lastOpenFiles": [
-    "zsh.md",
     "go lang.md",
-    "programming-language.md",
     "vim.md",
     "obsidian.md",
+    "zsh.md",
+    "programming-language.md",
     "tmux.md",
     "gnome.md",
     "firefox.md",

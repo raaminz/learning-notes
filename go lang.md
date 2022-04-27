@@ -234,7 +234,7 @@ func printOperation(a int, f func(int) int) {
 }
 
 func main() {
-	printOperation(1, addOne
+	printOperation(1, addOne)
 	printOperation(1, addTwo)
 }
 ```
