@@ -67,9 +67,12 @@ fmt.Println(i + int8(j))
 ```
 
 - Strings (can be utf-8)
-`var s string`
-
-`s := "Hello world \t\n\"world!\" with a backslash \\"`
+	- `rune` is a keywork to point a code in utf-8
+```
+var s string
+s := "Hello world \t\n\"world!\" with a backslash \\"
+s_rune := rune(s)
+```
 
 ```go
 //concatanation
@@ -238,3 +241,409 @@ func main() {
 	printOperation(1, addTwo)
 }
 ```
+
+- Pointers
+```go
+a := 10
+b := &a
+c := a
+fmt.Println(a, b, *b, c)
+
+a = 20
+fmt.Println(a, b, *b, c)
+
+*b = 30
+fmt.Println(a, b, *b, c)
+
+c = 40
+fmt.Println(a, b, *b, c)
+/*
+10 0xc00001e108 10 10
+20 0xc00001e108 20 10
+30 0xc00001e108 30 10
+30 0xc00001e108 30 40
+*/
+```
+
+```go
+b := new(int)
+
+fmt.Println(b) // if var b *int , then <nil>
+fmt.Println(*b) 
+// if var b *int , then panic : runtime error: invalid memory address or nil pointer dereference
+
+/*
+0xc0000b4010
+0
+*/
+```
+
+```go
+func setTo10(a *int) {
+	*a = 10
+}
+
+func main() {
+	a := 20
+	fmt.Println(a)
+	setTo10(&a)
+	fmt.Println(a)
+}
+/*
+20
+10
+*/
+```
+
+- packages
+	- each directory is associated with a unique package
+	- by importing the packege you can use everthing in that package
+	- Some packages
+		- utf8 package 
+			- to work with utf8 runes
+		- math
+			- math function
+			- math/rand
+				- random functions
+		- time 
+	- golang.org/pkg
+```
+fmt.Println
+//fmt = package name
+//Pritnln = function name
+```
+
+```go
+import "unicode/utf8"
+// utf8 package in unicode library
+```
+
+- Define package
+ `package blahblah`
+ 
+ You can define variables in package level
+ `var default_value = ' '`
+	 - it's publicly visible
+	 - you cant use colon equal (:=) to declare them
+
+Comment block before the funtions with signle line comments //
+
+- Visibility
+	- package access - name declaration lowercase
+	- public acess - name declaration uppercase
+
+- 3rd party packages
+	1- first
+	`go get github.com/rylans/getlang`
+	then import it 
+	2 - deb tool to manage dependencies
+	golang.github.io/dep
+	
+	`dep init`
+- Slice
+	- A slice is a growable sequence of values of a single specific type
+	- slices are reference type
+	- for range works with slices and arrays
+`s := make([]string, 0)` to create a slice , 0;initial capacity
+`s = append(s , "hello")` to add something to the end of list
+`len(s)` to get the eize
+`s[0]` to get or set an index
+
+```go
+s2 := make([]string, 2)
+fmt.Println("contents of s2[0]:", s2[0])
+s2 = append(s2, "hello")
+fmt.Println("contents of s2[0]:", s2[0])
+fmt.Println("contents of s2[2]:", s2[2])
+fmt.Println("length of s2:", len(s2))
+
+/*contents of s2[0]: 
+contents of s2[0]: 
+contents of s2[2]: hello
+length of s2: 3*/
+var s5 []string //an empty slice
+```
+
+```go
+s3 := []string{"a", "b", "c"}
+s4 := s3[0:2] //start from 0 , take 2 -> "a" , "b"
+s3[0] = "d" //s4[0] point to the same place
+```
+
+- map
+```go
+m := make(map[string]int)
+m["hello"] = 300
+h := m["hello"]
+
+if v, ok := m["hello"]; ok {
+	//if there's any value ok is true and v has the value
+	fmt.Println("hello in m:", v)
+}
+```
+
+```go
+m2 := map[string]int{
+	"a": 1,
+	"b": 2,
+	"c": 50,
+}
+
+for k, v := range m2 {
+	fmt.Println(k, v)
+}
+```
+
+```go
+m := map[string]int{
+	"a": 1,
+	"b": 2,
+}
+
+var m3 map[string]int
+m3 = m
+m3["goodbye"] = 400 //adds an element
+```
+
+- Structs
+```go
+type Foo struct {
+	A int
+	b string
+}
+
+func main() {
+	f := Foo{}
+	g := Foo{10, "Hello"}
+	h := Foo{
+		b: "Goodbye",
+	}
+	h.A = 1000
+}
+```
+
+```go
+f := Foo{
+	A: 20,
+}
+func main() {
+	var f2 Foo
+	f2 = f
+	f2.A = 100
+	
+	fmt.Println(f2.A)
+	fmt.Println(f.A)
+	//Here f is cloned, f2.A = 100, f.A = 20
+	
+	var f3 *Foo = &f
+	f3.A = 200
+	fmt.Println(f3.A)
+	fmt.Println(f.A)
+	//Here f3 is pointing, so f3.A = 200, f.A = 200
+}
+```
+
+```go
+type Foo struct {
+	A int
+	b string
+}
+
+
+type Baz struct {
+	D string
+	Foo
+	//this is called embedded struct
+	//kind of delegation
+}
+
+func main() {
+	f := Foo{A: 10, b: "Hello"}
+	b2 := Baz{D: "Nancy", Foo: f}
+	fmt.Println(b2.A)
+	var f2 Foo = b2.Foo
+	fmt.Println(f2)
+}
+```
+
+```go
+type Person struct {
+	Name string `json:"name"`
+	Age int `json:"age"`
+	//struct tags
+}
+
+func main() {
+	bob := `{ "name": "Bob", "age": 30}`
+	var b Person	
+	//import "encoding/json"
+	json.Unmarshal([]byte(bob), &b)	
+	fmt.Println(b)	
+	bob2, _ := json.Marshal(b)	
+	fmt.Println(string(bob2))
+}
+```
+
+- Methods
+	- add a functionality to a struct
+	- no method overriding
+```go
+type Foo struct {
+	A int
+	B string
+}
+
+func (f Foo) String() string {
+	return fmt.Sprintf("A: %d and B: %s", f.A, f.B)
+}
+
+func (f *Foo) Double() {
+	f.A = f.A * 2
+}
+```
+
+```go
+func (f Foo) fieldCount() int {
+	return 2
+}
+type Bar struct {
+	C bool
+	Foo
+}
+//b.Foo.fieldCount() is not overriding with this method
+func (b Bar) fieldCount() int {
+	return 3
+}
+```
+
+- Interfaces
+```go
+type tester interface {
+	test(int) bool
+}
+
+type rangeTest struct {
+	min int
+	max int
+}
+
+func (rt rangeTest) test(i int) bool {
+	return rt.min <= i && i <= rt.max
+}
+```
+
+```go
+var i interface{}
+//all the types is a kind of empty interface
+i = "Hello"
+j := i.(string) //.(string) is assertion
+
+k , ok := i.(int) //assertion returns both value and result
+
+m := i.(int) //not using result return , leads panic
+```
+
+```go
+type testerFunc func(int) bool
+//anonymous function
+func (tf testerFunc) test(i int) bool {
+	return tf(i)
+}
+
+```
+
+```go
+//using switch to check the type
+func doStuff(i interface{}) {
+	switch i := i.(type) {
+		case int:
+		fmt.Println("Double i is", i+i)
+		case string:
+		fmt.Println("i is", len(i), "characters long")
+		default:
+		fmt.Println("I don't know what to do with this")
+	}
+}
+```
+
+- errors
+```go
+func divAndMod(a int, b int) (int, int, error) {
+	if b == 0 {
+		return 0, 0, errors.New("Cannot divide by zero")
+	}
+	return a / b, a % b, nil
+}
+func main() {
+	a, err := strconv.ParseInt(os.Args[1], 10, 64)
+	if err != nil {
+		fmt.Println(err)
+		os.Exit(1)
+	}
+	div, mod, err := divAndMod(int(a), int(b))
+	if err != nil {
+		fmt.Println(err)
+		os.Exit(1)
+	}
+}
+```
+
+- goroutines
+	- concurrency in go
+	- as opposed to threads , it's managing by go
+`go runMe()`
+
+```go
+var wg sync.WaitGroup
+wg.Add(1)
+
+go func() {
+	runMe()
+	wg.Done()
+}()
+
+wg.Wait()
+```
+
+- Channels
+	- a type for transferring data between goroutines
+	- if we use two input at the same time without getting output program panics, then we need to use channel buffer or do input and output one by one
+	- not closing the channels causes gorouting leak
+```go
+in := make(chan string)
+out := make(chan string)
+
+go func() {
+	name := <-in
+	out <- fmt.Sprintf("Hello, " + name)
+}()
+
+in <- "Bob"
+close(in)
+message := <-out
+fmt.Println(message)
+```
+- select
+- backpressure
+- contexts
+- reflection
+- defer
+- panic and recover
+- complex numbers
+- atomics and mutexes
+- copy slices
+- full slice expressions
+- named return values
+- init functions
+- blank imports
+- internal packages
+- methods as functions
+
+## Links
+| description            | link                                     |
+| ---------------------- | ---------------------------------------- |
+| Go homepage            | https://golang.org                       |
+| Language specification | https://golang.org/ref/spec              |
+| Effective Go           | https://golang.org/doc/effective_go.html |
+| Standard library       | https://golang.org/pkg                   |
+| Standard tools         | https://golang.org/doc/cmd               | 
