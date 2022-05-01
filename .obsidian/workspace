@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "go lang.md",
+            "file": "tools.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "go lang.md",
+                "file": "tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +113,7 @@
   },
   "active": "28f0f52ec3fcaa93",
   "lastOpenFiles": [
+    "tools.md",
     "go lang.md",
     "firefox.md",
     "vim.md",
@@ -121,7 +122,6 @@
     "kde.md",
     "obsidian.md",
     "zsh.md",
-    "programming-language.md",
-    "tmux.md"
+    "programming-language.md"
   ]
 }
