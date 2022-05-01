@@ -1,4 +1,4 @@
-[[programming-language]]
+[[tools]]
 
 ### Install
 `dnf install zsh`
