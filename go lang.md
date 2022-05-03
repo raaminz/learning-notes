@@ -1,4 +1,9 @@
 [[programming-language]]
+- Installation
+https://go.dev/doc/install
+sudo apt install golang
+sudo apt install golang-1.18-go 
+
 - Import
 `import "fmt"`
 ```go
