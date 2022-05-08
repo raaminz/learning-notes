@@ -73,7 +73,7 @@ fmt.Println(i + int8(j))
 
 - Strings (can be utf-8)
 	- `rune` is a keywork to point a code in utf-8
-```
+```go
 var s string
 s := "Hello world \t\n\"world!\" with a backslash \\"
 s_rune := rune(s)
@@ -312,7 +312,7 @@ func main() {
 				- random functions
 		- time 
 	- golang.org/pkg
-```
+```go
 fmt.Println
 //fmt = package name
 //Pritnln = function name

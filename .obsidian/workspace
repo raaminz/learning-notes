@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "go lang.md",
-            "mode": "source",
+            "mode": "preview",
             "source": false
           }
         }
@@ -61,7 +61,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 232.5
+    "width": 232.5,
+    "collapsed": true
   },
   "right": {
     "id": "5f87e7f4e72fa4c7",
@@ -114,13 +115,13 @@
   "active": "cce8a3de315b813c",
   "lastOpenFiles": [
     "go lang.md",
+    "obsidian.md",
+    "tmux.md",
     "vim.md",
     "firefox.md",
     "docker.md",
-    "tmux.md",
     "tools.md",
     "zsh.md",
-    "obsidian.md",
     "programming-language.md",
     "gnome.md"
   ]

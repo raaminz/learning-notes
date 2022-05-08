@@ -5,7 +5,6 @@
 
 ##### map both `caps lock` and `esc` to `esc`
 `setxkbmap -option caps:escape`
-
 ##### copy paste
 - `yy/Y` yank (copy)
 - `3yy` to copy 3 lines
