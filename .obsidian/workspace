@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "go lang.md",
-            "mode": "preview",
+            "mode": "source",
             "source": false
           }
         }
@@ -61,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 232.5,
-    "collapsed": true
+    "width": 232.5
   },
   "right": {
     "id": "5f87e7f4e72fa4c7",

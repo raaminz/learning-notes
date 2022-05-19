@@ -37,21 +37,21 @@ i = 10
 
 - Numberic types
 
-| type name | min value                                         | max value                  |
-| --------- | ------------------------------------------------- | -------------------------- |
-| int8      | -128                                              | 127                        |
-| int16     | -32768                                            | 32767                      |
-| int32     | -2,147,438,648                                    | 2,147,438,647              |
-| int64     | −9,223,372,036,854,775,808                        | 9,223,372,036,854,775,807  |
-| uint8     | 0                                                 | 255                        |
-| uint16    | 0                                                 | 65535                      |
-| uint32    | 0                                                 | 4,294,967,293              |
-| uint64    | 0                                                 | 18,446,744,073,709,551,615 |
-| float32   | 32 bit                                            | ~7 decimal                 |
-| float64   | 64 bit                                            | ~15 decimal                |
-| byte      | same as unit8                                     |                            |
-| int       | same as int32 or int64 (based on architecture)    |                            |
-| uint      | same as uint32 or uint64 (based on architecture)  |                            |
+| type name | min value                                        | max value            |
+| --------- | ------------------------------------------------ | -------------------- |
+| int8      | -128                                             | 127                  |
+| int16     | -32768                                           | 32767                |
+| int32     | –2147483648                                      | 2147483647           |
+| int64     | –9223372036854775808                             | 9223372036854775807  |
+| uint8     | 0                                                | 255                  |
+| uint16    | 0                                                | 65535                |
+| uint32    | 0                                                | 4294967295           |
+| uint64    | 0                                                | 18446744073709551615 | 
+| float32   | 32 bit                                           | ~7 decimal           |
+| float64   | 64 bit                                           | ~15 decimal          |
+| byte      | same as unit8                                    |                      |
+| int       | same as int32 or int64 (based on architecture)   |                      |
+| uint      | same as uint32 or uint64 (based on architecture) |                      |
 
 
 
