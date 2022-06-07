@@ -7,11 +7,10 @@
         "id": "cce8a3de315b813c",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "diff-view",
           "state": {
-            "file": "go lang.md",
-            "mode": "source",
-            "source": false
+            "file": ".obsidian/workspace",
+            "staged": false
           }
         }
       }
@@ -77,7 +76,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "go lang.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,13 +111,13 @@
   },
   "active": "cce8a3de315b813c",
   "lastOpenFiles": [
-    "go lang.md",
     "obsidian.md",
+    "tools.md",
     "tmux.md",
+    "go lang.md",
     "vim.md",
     "firefox.md",
     "docker.md",
-    "tools.md",
     "zsh.md",
     "programming-language.md",
     "gnome.md"
