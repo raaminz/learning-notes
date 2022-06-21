@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cce8a3de315b813c",
+        "id": "28d32613fe23551e",
         "type": "leaf",
         "state": {
-          "type": "diff-view",
-          "state": {
-            "file": ".obsidian/workspace",
-            "staged": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -109,17 +106,17 @@
     "direction": "horizontal",
     "width": 338.4999694824219
   },
-  "active": "cce8a3de315b813c",
+  "active": "28d32613fe23551e",
   "lastOpenFiles": [
+    "emacs.md",
+    "go lang.md",
     "obsidian.md",
     "tools.md",
     "tmux.md",
-    "go lang.md",
     "vim.md",
     "firefox.md",
     "docker.md",
     "zsh.md",
-    "programming-language.md",
-    "gnome.md"
+    "programming-language.md"
   ]
 }

@@ -488,6 +488,25 @@ func main() {
 	fmt.Println(string(bob2))
 }
 ```
+```go
+type args struct {
+  contiArticleType string
+  contiArticleId string
+}
+
+tests := []struct {
+  name string
+  args args
+  returnArticleId int
+  returnArticleTitle string
+}{
+
+  {name: "Not defined article type always returns 'Mounting'", args: args{contiArticleType: 
+  "BlahBlah", contiArticleId: "nil"},
+  returnArticleId: 102, returnArticleTitle: "Mounting"},
+
+}
+```
 
 - Methods
 	- add a functionality to a struct
