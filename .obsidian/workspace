@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "28d32613fe23551e",
+        "id": "f099faa17e63fb26",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "emacs.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "emacs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,16 +106,16 @@
     "direction": "horizontal",
     "width": 338.4999694824219
   },
-  "active": "28d32613fe23551e",
+  "active": "f099faa17e63fb26",
   "lastOpenFiles": [
     "emacs.md",
+    "firefox.md",
     "docker.md",
     "go lang.md",
     "obsidian.md",
     "tools.md",
     "tmux.md",
     "vim.md",
-    "firefox.md",
     "zsh.md"
   ]
 }
