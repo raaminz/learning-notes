@@ -7,8 +7,12 @@
         "id": "28d32613fe23551e",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "emacs.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "emacs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,14 +114,13 @@
   "active": "28d32613fe23551e",
   "lastOpenFiles": [
     "emacs.md",
+    "docker.md",
     "go lang.md",
     "obsidian.md",
     "tools.md",
     "tmux.md",
     "vim.md",
     "firefox.md",
-    "docker.md",
-    "zsh.md",
-    "programming-language.md"
+    "zsh.md"
   ]
 }
