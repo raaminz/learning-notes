@@ -1,3 +1,4 @@
+[[tools]]
 | command                       | meaning                       |
 | ----------------------------- | ----------------------------- |
 | C g                           | Cancel / Quit                 |
@@ -28,7 +29,9 @@
 | C x 5 o                       | cycle through frames          |
 | C x 5 1                       | Delte other frames            |
 | M x org-mode                  |                               |
-| M x describe-mode                              |                               |
+| M x describe-mode             |                               |
+| C x h                         | Select all                    |
+|                               |                               |
 
 create a file ~/emacs.d/init.el
 https://melpa.org/#/getting-started

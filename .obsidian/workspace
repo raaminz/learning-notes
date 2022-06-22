@@ -7,7 +7,7 @@
         "id": "f099faa17e63fb26",
         "type": "leaf",
         "state": {
-          "type": "empty",
+          "type": "graph",
           "state": {}
         }
       }
@@ -109,6 +109,7 @@
   "active": "f099faa17e63fb26",
   "lastOpenFiles": [
     "emacs.md",
+    "gnome.md",
     "firefox.md",
     "docker.md",
     "go lang.md",
