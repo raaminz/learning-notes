@@ -41,3 +41,29 @@ C e -> to run the file
 
 M x package-refresh-contents
 
+.emacs.d/ init.el first file to load
+
+use-package -> decoration to use simply emacs packages
+ensures it's load and add hooks
+no need to config them 
+```lisp
+(unless (package-installed-p 'use-package)
+  (package-refresh-contents)
+  (package-install 'use-package))
+```
+
+which-key -> if you say C x and wait , it shows available commands
+```lisp
+(use-package which-key
+  :ensure t
+  :config (which-key-mode))
+```
+
+doom-themes
+```lisp
+(use-package doom-themes
+  :ensure t
+  :config (load-theme 'doom-solarized-light))
+```
+
+`M-x customize-group RET doom-modeline RET`

@@ -7,8 +7,12 @@
         "id": "f099faa17e63fb26",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "emacs.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "emacs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,6 +114,7 @@
   "active": "f099faa17e63fb26",
   "lastOpenFiles": [
     "emacs.md",
+    "vim.md",
     "gnome.md",
     "firefox.md",
     "docker.md",
@@ -116,7 +122,6 @@
     "obsidian.md",
     "tools.md",
     "tmux.md",
-    "vim.md",
     "zsh.md"
   ]
 }
