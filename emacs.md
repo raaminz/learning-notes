@@ -1,4 +1,13 @@
 [[tools]]
+
+#### My requirements
+[ ] - Finding source files easily
+[ ] - Debugging
+[ ] - Searching full texts in project
+[ ] - Opening different projects in one workspace
+[ ] - Working with Git
+[ ] - working with Docker
+
 | command                       | meaning                       |
 | ----------------------------- | ----------------------------- |
 | C g                           | Cancel / Quit                 |
