@@ -1,12 +1,17 @@
 [[tools]]
 
 #### My requirements
-[ ] - Finding source files easily
-[ ] - Debugging
-[ ] - Searching full texts in project
-[ ] - Opening different projects in one workspace
-[ ] - Working with Git
-[ ] - working with Docker
+- [ ] Large font, solarized theme
+- [ ] Finding source files and going back and forth easily 
+- [ ] Bookmarking sorucefiles
+- [ ] Full information of current file
+- [ ] Debugging
+- [ ] Searching full texts in project
+- [ ] Opening different projects in one workspace
+- [ ] Working with Git
+- [ ] working with Docker
+- [ ] code refactoring (find and replace occurrences, renaming, moving)
+- [ ] following logs efficiently
 
 | command                       | meaning                       |
 | ----------------------------- | ----------------------------- |
