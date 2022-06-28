@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "f099faa17e63fb26",
+        "id": "a276a421572d18c4",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -61,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 232.5
+    "width": 201.50235176086426
   },
   "right": {
     "id": "5f87e7f4e72fa4c7",
@@ -111,14 +111,14 @@
     "direction": "horizontal",
     "width": 338.4999694824219
   },
-  "active": "f099faa17e63fb26",
+  "active": "a276a421572d18c4",
   "lastOpenFiles": [
     "emacs.md",
+    "docker.md",
+    "go lang.md",
     "vim.md",
     "gnome.md",
     "firefox.md",
-    "docker.md",
-    "go lang.md",
     "obsidian.md",
     "tools.md",
     "tmux.md",

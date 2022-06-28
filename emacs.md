@@ -1,17 +1,18 @@
 [[tools]]
 
 #### My requirements
-- [ ] Large font, solarized theme
+- [ ] Large font, eye friendly theme
 - [ ] Finding source files and going back and forth easily 
 - [ ] Bookmarking sorucefiles
 - [ ] Full information of current file
 - [ ] Debugging
 - [ ] Searching full texts in project
 - [ ] Opening different projects in one workspace
-- [ ] Working with Git
+- [ ] working with Git
 - [ ] working with Docker
 - [ ] code refactoring (find and replace occurrences, renaming, moving)
 - [ ] following logs efficiently
+- [ ] Having some playground functionality
 
 | command                       | meaning                       |
 | ----------------------------- | ----------------------------- |
@@ -81,3 +82,76 @@ doom-themes
 ```
 
 `M-x customize-group RET doom-modeline RET`
+
+Navigate easier
+* ido  =>  in C x C f , lists all the files in current path
+```lisp
+(setq ido-everywhere t)
+(setq ido-enable-flex-matching t)
+(ido-mode t)
+```
+* Helm
+```lisp
+(use-package helm
+  :ensure t
+  :config (helm-mode 1))
+```
+
+- Projectile - a series of command only for a project
+```lisp
+(use-package projectile
+  :ensure t
+  :config
+  (define-key projectile-mode-map (kbd "C-x p") 'projectile-command-map)
+  (projectile-mode 1))
+```
+
+- C x p f : find a file
+- C x p b : switch to another buffer
+- C x p p : swithc to another project
+
+```lisp
+(use-package helm-projectile
+  :ensure t
+  :config (helm-projectile-on))
+```
+
+- adding dashboard
+```lisp
+(use-package dashboard
+  :ensure t
+  :init
+  (progn
+    (setq dashboard-items '((recents . 1)
+			    (projects . 1))))
+  (setq dashboard-show-shortcuts t)
+  (setq dashboard-center-content nil)
+  :config
+  (dashboard-setup-startup-hook))
+```
+C x b \*dashboard\* confirm
+M - x dashboard-refresh-buffer
+
+- treemacs
+M x treemacs
+```lisp
+(use-package treemacs
+  :ensure t
+  :bind
+  (:map global-map
+	([f8] . treemacs)
+	("C-<f8>" . treemacs-select-window))
+  :config
+  (setq treemacs-is-never-other-window t))
+```
+inside treemacs
+C c C p -> project
+C c C w -> workspaces
+
+- treemacs-projectile
+```lisp
+(use-package treemacs-projectile
+  :after treemacs projectile
+  :ensure t)
+```
+
