@@ -155,3 +155,12 @@ C c C w -> workspaces
   :ensure t)
 ```
 
+## Spacemacs
+SPC f e d --> find spacemacs dotfile
+SPC h l --> help for layers
+SPC b h --> go to home
+SPC f s --> save the file
+SPC q q --> quit
+
+## Doom emacs
+SPC h r r -> fx compile .doom.d/init
