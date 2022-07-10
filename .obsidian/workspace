@@ -114,9 +114,9 @@
   "active": "a276a421572d18c4",
   "lastOpenFiles": [
     "emacs.md",
-    "docker.md",
-    "go lang.md",
     "vim.md",
+    "go lang.md",
+    "docker.md",
     "gnome.md",
     "firefox.md",
     "obsidian.md",

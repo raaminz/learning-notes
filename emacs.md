@@ -1,17 +1,17 @@
 [[tools]]
 
 #### My requirements
-- [ ] Large font, eye friendly theme
-- [ ] Finding source files and going back and forth easily 
-- [ ] Bookmarking sorucefiles
-- [ ] Full information of current file
+- [x] Large font, eye friendly theme
+- [x] Finding source files and going back and forth easily 
+- [x] Bookmarking sorucefiles
+- [x] Full information of current file
 - [ ] Debugging
-- [ ] Searching full texts in project
-- [ ] Opening different projects in one workspace
-- [ ] working with Git
-- [ ] working with Docker
-- [ ] code refactoring (find and replace occurrences, renaming, moving)
-- [ ] following logs efficiently
+- [x] Searching full texts in project
+- [x] Opening different projects in one workspace
+- [x] working with Git
+- [x] working with Docker
+- [x] code refactoring (find and replace occurrences, renaming, moving)
+- [x] following logs efficiently
 - [ ] Having some playground functionality
 
 | command                       | meaning                       |
@@ -161,6 +161,11 @@ SPC h l --> help for layers
 SPC b h --> go to home
 SPC f s --> save the file
 SPC q q --> quit
+SPACE * to find text under cursor in project or selected with visual-mode.
+SPACE s l to resume last search (yes, that's the letter L).
+SPC p f to find a file within a project.
 
+`(setq lsp-keymap-prefix "C-c C-l")`
+`M-x customize-option lsp-keymap-prefix`
 ## Doom emacs
 SPC h r r -> fx compile .doom.d/init
