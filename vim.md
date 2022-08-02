@@ -36,6 +36,12 @@
 - `G` go to last line
 - `$` go to end of line
 - `A` it does `$` and insert mode
+- `H` move to top of screen
+- `M` move to middle of screen
+- `L` move to bottom of screen
+- `G` go to the last line of the document
+- `}`  jump to next paragraph (or function/block, when editing code)
+- `{` jump to previous paragraph (or function/block, when editing code)
 
 ##### tricks
 - `vim -u NONE -N`

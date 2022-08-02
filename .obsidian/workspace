@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a276a421572d18c4",
+        "id": "17f93be92d2be692",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "emacs.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "emacs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,33 +90,25 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
-          },
-          {
-            "id": "5cf3b26395bf78ef",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 338.4999694824219
   },
-  "active": "a276a421572d18c4",
+  "active": "17f93be92d2be692",
   "lastOpenFiles": [
-    "emacs.md",
-    "vim.md",
     "go lang.md",
-    "docker.md",
-    "gnome.md",
+    "emacs.md",
     "firefox.md",
+    "gnome.md",
+    "vim.md",
     "obsidian.md",
+    "programming-language.md",
+    "docker.md",
     "tools.md",
-    "tmux.md",
-    "zsh.md"
+    "tmux.md"
   ]
 }
