@@ -42,7 +42,10 @@
 - `G` go to the last line of the document
 - `}`  jump to next paragraph (or function/block, when editing code)
 - `{` jump to previous paragraph (or function/block, when editing code)
-- ``
+- `Ctrl-U` scroll half a screen up
+- `Ctrl-B` scroll a full screen up
+- `Ctrl-D` scroll half a screen down
+- `Ctrl-F` scroll a full screen down
 
 ##### tricks
 - `vim -u NONE -N`
