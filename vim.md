@@ -42,6 +42,7 @@
 - `G` go to the last line of the document
 - `}`  jump to next paragraph (or function/block, when editing code)
 - `{` jump to previous paragraph (or function/block, when editing code)
+- ``
 
 ##### tricks
 - `vim -u NONE -N`

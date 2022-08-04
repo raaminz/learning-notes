@@ -7,8 +7,12 @@
         "id": "17f93be92d2be692",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "vim.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "vim.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +101,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 338.4999694824219
+    "width": 338.4999694824219,
+    "collapsed": true
   },
   "active": "17f93be92d2be692",
   "lastOpenFiles": [
