@@ -30,11 +30,11 @@
 - `u` undo
 - `o` new line and insert mode
 - `0` cursor to begining of line
+- `$` cursor go to end of line
 - `Shift + i` it does `0` and insert mode
 - `gg` go to first line
 - `5gg` / `5G` go to line 5
 - `G` go to last line
-- `$` go to end of line
 - `A` it does `$` and insert mode
 - `H` move to top of screen
 - `M` move to middle of screen
