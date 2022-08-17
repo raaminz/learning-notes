@@ -61,7 +61,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.50235176086426
+    "width": 201.50235176086426,
+    "collapsed": true
   },
   "right": {
     "id": "5f87e7f4e72fa4c7",
@@ -106,6 +107,7 @@
   },
   "active": "17f93be92d2be692",
   "lastOpenFiles": [
+    "vim.md",
     "tools.md",
     "docker.md",
     "emacs.md",
@@ -114,7 +116,6 @@
     "go lang.md",
     "obsidian.md",
     "programming-language.md",
-    "tmux.md",
-    "vim.md"
+    "tmux.md"
   ]
 }
