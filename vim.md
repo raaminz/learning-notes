@@ -16,6 +16,7 @@
 - `y^` yank left of the cursor
 - `x`   - delete the current character
 - `dd` cut the line
+- `diw` delete inner word
 - `3dd` cut 3 lines
 - `d$` cut right of the cursor
 	- Visual mode
