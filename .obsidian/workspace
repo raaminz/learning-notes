@@ -85,7 +85,7 @@
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
@@ -105,7 +105,7 @@
     "width": 338.4999694824219,
     "collapsed": true
   },
-  "active": "17f93be92d2be692",
+  "active": "5e4901a0d0dc815c",
   "lastOpenFiles": [
     "vim.md",
     "tools.md",
