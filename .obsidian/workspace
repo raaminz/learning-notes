@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "vim.md",
+            "file": "emacs.md",
             "mode": "source",
             "source": false
           }
@@ -61,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.50235176086426,
-    "collapsed": true
+    "width": 201.50235176086426
   },
   "right": {
     "id": "5f87e7f4e72fa4c7",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vim.md",
+                "file": "emacs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +104,7 @@
     "width": 338.4999694824219,
     "collapsed": true
   },
-  "active": "5e4901a0d0dc815c",
+  "active": "17f93be92d2be692",
   "lastOpenFiles": [
     "vim.md",
     "tools.md",
