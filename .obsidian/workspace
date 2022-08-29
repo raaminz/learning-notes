@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "obsidian.md",
+            "file": "emacs.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian.md",
+                "file": "emacs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,15 +106,15 @@
   },
   "active": "17f93be92d2be692",
   "lastOpenFiles": [
-    "programming-language.md",
     "vim.md",
+    "obsidian.md",
+    "programming-language.md",
     "emacs.md",
     "tools.md",
     "docker.md",
     "firefox.md",
     "gnome.md",
     "go lang.md",
-    "obsidian.md",
     "tmux.md"
   ]
 }
