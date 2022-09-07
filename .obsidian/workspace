@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "vim.md",
+            "file": "go lang.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vim.md",
+                "file": "go lang.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +106,7 @@
   },
   "active": "17f93be92d2be692",
   "lastOpenFiles": [
+    "vim.md",
     "emacs.md",
     "firefox.md",
     "gnome.md",
@@ -114,7 +115,6 @@
     "programming-language.md",
     "tmux.md",
     "tools.md",
-    "vim.md",
     "docker.md"
   ]
 }

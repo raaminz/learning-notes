@@ -118,7 +118,7 @@ vals[2] = 6
 ```go
 a := 10
 if b := a / 2; b > 5 {
-	
+
 } else {
 	//b is accecible
 }
@@ -480,11 +480,12 @@ type Person struct {
 
 func main() {
 	bob := `{ "name": "Bob", "age": 30}`
-	var b Person	
+	var b Person
 	//import "encoding/json"
-	json.Unmarshal([]byte(bob), &b)	
-	fmt.Println(b)	
-	bob2, _ := json.Marshal(b)	
+	json.Unmarshal([]byte(bob), &b)
+	fmt.Println(b)
+	bob2, _ := json.Marshal(b)
+    // casting
 	fmt.Println(string(bob2))
 }
 ```
@@ -556,6 +557,7 @@ func (rt rangeTest) test(i int) bool {
 }
 ```
 
+- Assertions
 ```go
 var i interface{}
 //all the types is a kind of empty interface
