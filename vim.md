@@ -29,6 +29,7 @@
 
 ##### Cursor
 - `u` undo
+- `Ctrl-r` redo
 - `o` new line and insert mode
 - `0` cursor to begining of line
 - `Shift + i` it does `0` and insert mode
