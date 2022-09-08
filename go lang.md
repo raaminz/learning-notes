@@ -1,8 +1,6 @@
 [[programming-language]]
 - Installation
 https://go.dev/doc/install
-sudo apt install golang
-sudo apt install golang-1.18-go 
 
 - Import
 `import "fmt"`
@@ -46,7 +44,7 @@ i = 10
 | uint8     | 0                                                | 255                  |
 | uint16    | 0                                                | 65535                |
 | uint32    | 0                                                | 4294967295           |
-| uint64    | 0                                                | 18446744073709551615 | 
+| uint64    | 0                                                | 18446744073709551615 |
 | float32   | 32 bit                                           | ~7 decimal           |
 | float64   | 64 bit                                           | ~15 decimal          |
 | byte      | same as unit8                                    |                      |
@@ -206,7 +204,7 @@ default:
 	- pass by value
 	- multiple return
 	- no overloading
-	- can be assigned to a variable 
+	- can be assigned to a variable
 	- you can return a function
 
 ```go
@@ -274,7 +272,7 @@ fmt.Println(a, b, *b, c)
 b := new(int)
 
 fmt.Println(b) // if var b *int , then <nil>
-fmt.Println(*b) 
+fmt.Println(*b)
 // if var b *int , then panic : runtime error: invalid memory address or nil pointer dereference
 
 /*
@@ -304,13 +302,13 @@ func main() {
 	- each directory is associated with a unique package
 	- by importing the packege you can use everthing in that package
 	- Some packages
-		- utf8 package 
+		- utf8 package
 			- to work with utf8 runes
 		- math
 			- math function
 			- math/rand
 				- random functions
-		- time 
+		- time
 	- golang.org/pkg
 ```go
 fmt.Println
@@ -325,7 +323,7 @@ import "unicode/utf8"
 
 - Define package
  `package blahblah`
- 
+
  You can define variables in package level
  `var default_value = ' '`
 	 - it's publicly visible
@@ -340,10 +338,10 @@ Comment block before the funtions with signle line comments //
 - 3rd party packages
 	1- first
 	`go get github.com/rylans/getlang`
-	then import it 
+	then import it
 	2 - deb tool to manage dependencies
 	golang.github.io/dep
-	
+
 	`dep init`
 - Slice
 	- A slice is a growable sequence of values of a single specific type
@@ -362,8 +360,8 @@ fmt.Println("contents of s2[0]:", s2[0])
 fmt.Println("contents of s2[2]:", s2[2])
 fmt.Println("length of s2:", len(s2))
 
-/*contents of s2[0]: 
-contents of s2[0]: 
+/*contents of s2[0]:
+contents of s2[0]:
 contents of s2[2]: hello
 length of s2: 3*/
 var s5 []string //an empty slice
@@ -435,11 +433,11 @@ func main() {
 	var f2 Foo
 	f2 = f
 	f2.A = 100
-	
+
 	fmt.Println(f2.A)
 	fmt.Println(f.A)
 	//Here f is cloned, f2.A = 100, f.A = 20
-	
+
 	var f3 *Foo = &f
 	f3.A = 200
 	fmt.Println(f3.A)
