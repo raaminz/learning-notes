@@ -46,6 +46,8 @@
 - `{` jump to previous paragraph (or function/block, when editing code)
 - `Ctrl - o` jump backward
 - `Ctrl - i` jump forward
+- `Shift - $` jump to first character of line
+- `Shift - ^` jump to last character of line
 
 ##### Scrolling (https://vim-jp.org/vimdoc-en/scroll.html)
 - `Ctrl-Y` scroll window up
@@ -55,9 +57,9 @@
 - `Ctrl-D` scroll half a screen down
 - `Ctrl-F` scroll a full screen down
 
-##### tricks
-- `vim -u NONE -N`
-	- The -u NONE flag tells Vim not to source your vimrc on startup
-
 ##### Search and replace
 - `:%s/[SEARCH_TEXT]/[REPLACE_TEXT]/g`
+
+##### trick
+- `vim -u NONE -N`
+	- The -u NONE flag tells Vim not to source your vimrc on startup
