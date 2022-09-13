@@ -24,7 +24,7 @@
 		- `V` to select the line
 		- `Ctrl + v` select the block
 		- `y` yank
-		- `d` cut 
+		- `d` cut
 		- `p` paste
 
 ##### Cursor
