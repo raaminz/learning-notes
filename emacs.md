@@ -46,7 +46,7 @@
 | M x org-mode                  |                               |
 | M x describe-mode             |                               |
 | C x h                         | Select all                    |
-|                               |                               |
+| C q Tab                       | Insert a tab                  |
 
 create a file ~/emacs.d/init.el
 https://melpa.org/#/getting-started
