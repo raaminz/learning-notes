@@ -57,6 +57,10 @@
 - `Ctrl-D` scroll half a screen down
 - `Ctrl-F` scroll a full screen down
 
+#### Normal mode
+- `f d` in insert mode
+
+
 ##### Search and replace
 - `:%s/[SEARCH_TEXT]/[REPLACE_TEXT]/g`
 
