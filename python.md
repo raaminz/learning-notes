@@ -8,3 +8,7 @@ for item in my_list:
 my_dic = {"name": "Sam", "phone": 12411241}
 print(my_dic)
 ```
+
+```python
+variable
+```
