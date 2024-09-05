@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zsh.md",
+                "file": "vim.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zsh.md",
+                "file": "vim.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "zsh.md",
+                "file": "vim.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "zsh.md"
+                "file": "vim.md"
               }
             }
           }
@@ -148,13 +148,14 @@
   },
   "active": "db8e349944957790",
   "lastOpenFiles": [
+    "zsh.md",
+    "private/sftp.md",
     "go lang.md",
     "firefox.md",
     "go/Efficient String Building in Golang.md",
     "go/channels in golang.md",
     "go/Buffer to write golang.md",
     "private/prometeus.md",
-    "private/sftp.md",
     "private/mongo-client.md",
     "emacs.md"
   ]
