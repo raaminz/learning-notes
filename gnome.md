@@ -1,5 +1,3 @@
-[[tools]]
-
 #### add status bar again
 https://ep.gnt.md/index.php/how-to-install-and-enable-gnome-system-tray-icons-in-debian-10/
 

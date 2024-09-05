@@ -1,5 +1,3 @@
-[[tools]]
-
 #### My requirements
 - [x] Large font, eye friendly theme
 - [x] Finding source files and going back and forth easily 
@@ -12,7 +10,6 @@
 - [x] working with Docker
 - [x] code refactoring (find and replace occurrences, renaming, moving)
 - [x] following logs efficiently
-- [ ] Having some playground functionality
 
 | command                       | meaning                       |
 | ----------------------------- | ----------------------------- |
@@ -60,7 +57,7 @@ M x package-refresh-contents
 
 use-package -> decoration to use simply emacs packages
 ensures it's load and add hooks
-no need to config them 
+no need to config theme
 ```lisp
 (unless (package-installed-p 'use-package)
   (package-refresh-contents)

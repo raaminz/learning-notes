@@ -1,4 +1,3 @@
-[[programming-language]]
 - Installation
 https://go.dev/doc/install
 

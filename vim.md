@@ -1,5 +1,3 @@
-[[tools]]
-
 ##### NerdTree
 - press `m` : manage files
 

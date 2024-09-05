@@ -1,5 +1,3 @@
-**[[tools]]
-
 ### install docker
 
 https://docs.docker.com/engine/install/fedora/
